@@ -1,16 +1,11 @@
 # flavour_app
 
-A new Flutter project.
+Flavoring for Android :
 
-## Getting Started
+To run app #1 -
 
-This project is a starting point for a Flutter application.
+flutter run --flavor app1 -t lib/main_app1.dart
 
-A few resources to get you started if this is your first Flutter project:
+To run app #2 - 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+flutter run --flavor app2 -t lib/main_app2.dart
