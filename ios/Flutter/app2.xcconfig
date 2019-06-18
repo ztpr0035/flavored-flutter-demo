@@ -1,4 +1,0 @@
-#include "Generated.xcconfig"
-FLUTTER_TARGET = lib/main_app2.dart
-
-bundle_suffix = .app2
