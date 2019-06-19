@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 enum Flavour {
   APP1,
-  App2,
+  APP2,
 }
 
 class App_Config {
@@ -11,7 +11,7 @@ class App_Config {
     switch (appDisplayName) {
       case Flavour.APP1:
         return "App 1";
-      case Flavour.App2:
+      case Flavour.APP2:
         return "App 2";
     }
   }
@@ -19,15 +19,16 @@ class App_Config {
     switch (appDisplayName) {
       case Flavour.APP1:
         return 0xffECCD8C;
-      case Flavour.App2:
-        return 0xff0091EA;
+      case Flavour.APP2:
+        //return 0xff0091EA;
+        return 0xffea0b00;
     }
   }
   static String get title {
     switch (appDisplayName) {
       case Flavour.APP1:
         return "Homepage of App 1";
-      case Flavour.App2:
+      case Flavour.APP2:
         return "Homepage of App 2";
     }
   }
