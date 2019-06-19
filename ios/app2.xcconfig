@@ -1,0 +1,12 @@
+//
+//  app2.xcconfig
+//  Runner
+//
+//  Created by piyushrathod on 18/06/19.
+//  Copyright © 2019 The Chromium Authors. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "./Flutter/Generated.xcconfig"
+bundle_suffix = .app2
